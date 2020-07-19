@@ -7,6 +7,7 @@ class Solution {
         int length = s.length();
         int ans = 0;
         HashMap<Character,Integer> hashMap = new HashMap<>();
+
         for(int left = 0,right = 0; right<length;right++){
             char temp = s.charAt(right);
             if(hashMap.containsKey(temp)){ //重复
