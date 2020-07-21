@@ -3,6 +3,7 @@ package Hot006;
 public class Solution {
 
     public String convert(String s, int numRows) {
+
             char[] old = s.toCharArray();
             char[][] temp = new char[numRows][s.length()];
             int[] info = new int[s.length()];
